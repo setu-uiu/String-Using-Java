@@ -1,0 +1,12 @@
+public class string1 {
+    public static void main (String[] args) {
+        String  name = "Abc 123 7&*&*";
+        int count =0 ;
+        int i=0;
+        while ( i< name.length()){
+            i++ ;
+            count ++;
+        }
+        System.out.println("Count : "+count);
+    }
+}
