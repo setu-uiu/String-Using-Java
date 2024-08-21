@@ -1,0 +1,11 @@
+public class string2 {
+    public static void main(String[] args) {
+
+
+        String FirstName = "My name ";
+        String LastName = "is andy";
+        String FullName = FirstName + LastName; //FirstName.concat(LastName);
+        System.out.println(" Full Name : " + FullName);
+
+    }
+}
