@@ -1,0 +1,11 @@
+public class string5 {
+    public static void main(String[] args) {
+        String setu = " My name is Andy";
+        String reverse = " ";
+        for ( int i = setu.length()-1 ; i>=0;i-- ){
+            reverse += setu.charAt(i);
+        }
+        System.out.println(reverse);
+
+    }
+}
