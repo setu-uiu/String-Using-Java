@@ -1,0 +1,7 @@
+public class string6 {
+    public static void main(String[] args) {
+        String Sentence = "My name is andy";
+        Sentence = Sentence.toUpperCase();
+        System.out.println(Sentence);
+    }
+}
