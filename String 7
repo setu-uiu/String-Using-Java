@@ -1,0 +1,18 @@
+public class string7 {
+    public static void main(String[] args) {
+        String sentence = "My name is Andy";
+        String setu = "";
+        
+        for (int i = 0; i < sentence.length(); i++) {
+            char currentChar = sentence.charAt(i);
+            
+            if (Character.isUpperCase(currentChar)) {
+                setu = setu + Character.toLowerCase(currentChar);
+            } else {
+                setu = setu + Character.toUpperCase(currentChar);
+            }
+        }
+        
+        System.out.println("String: " + setu);
+    }
+}
